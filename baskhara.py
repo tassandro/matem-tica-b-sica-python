@@ -1,5 +1,5 @@
 a, b, c = 1, 2, 1
-delta = b* - 4*a*c
+delta = b**2 - 4*a*c
 if delta > 0:
   x1 = (-b + delta**(1/2))/(2a)
   x2 = (-b - delta**(1/2))/(2a)
